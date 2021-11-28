@@ -1,7 +1,11 @@
 {
+  "name": "videojs-youtube-sample",
+  "description": "YouTube playback technology for Video.js",
+  "version": "0.0.1",
   "scripts": {
   },
   "dependencies": {
+    "video.js": "^7.0.2",
     "videojs-youtube": "^2.6.1"
   }
 }
