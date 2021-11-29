@@ -25,7 +25,6 @@
         data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=mgxDyrEnnoE"}] }'
     ></video>
 
-
     <!-- JavaScript Library -->
 
     <!-- <script src="/node_modules/video.js/dist/video.min.js"></script> -->
@@ -39,12 +38,11 @@
     <!-- 播放器設定 -->
     <script>
         var myPlayer = videojs("video1");
-         videojs('video1').ready(function() {
-             var myPlayer = this;
-             myPlayer.volume(0.25); // Set volume to 25%
-             myPlayer.autoPlay(true);
-             myPlayer.play();
+        videojs("video1").ready(function () {
+            var myPlayer = this;
+            myPlayer.volume(0.25); // Set volume to 25%
+            myPlayer.autoPlay(true);
+            myPlayer.play();
         });
-
     </script>
 </body>
